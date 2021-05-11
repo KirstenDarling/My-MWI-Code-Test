@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midwestern Interactive | Benchmark Test</title>
+
+    <!-- Link to Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+   
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+
+<!-- Header with Logo, No Navbar -->
+<header>
+    <img src="img/logo.png" alt="Midwestern Interactive Logo">
+    <hr>
+</header>
+
+<!-- Main/Card Section -->
+<main>
+    <div class="container">
+        <h1 class="display-5"><u>HEADING ONE</u></h1>
+        <div class="row">
+            <!-- First Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/blank-picture-filler.jpg" alt="insert picture description here">
+                    <h2>Heading 2</h2>
+                    <p class="card-text">This is a paragraph text that is meant to flex and wrap to a new line
+                    based on the number of characters in this container. Please make sure this is looking
+                    pretty based on the amount of characters this is taking up.</p>
+                    <button class="look-a-like-button">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <!-- End of First Card -->
+
+            <!-- Second Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/blank-picture-filler.jpg" alt="insert picture description here">
+                    <h2>Heading 2</h2>
+                    <p class="card-text">This is a paragraph text that is meant to flex and wrap to a new line
+                        based on the number of characters in this container. Please make sure this is looking
+                        pretty based on the amount of characters this is taking up.</p>
+                    <button class="look-a-like-button">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <!-- End of Second Card -->
+
+            <!-- Third Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/blank-picture-filler.jpg" alt="insert picture description here">
+                    <h2>Heading 2</h2>
+                    <p class="card-text">This is a paragraph text that is meant to flex and wrap to a new line
+                    based on the number of characters in this container. Please make sure this is looking
+                    pretty based on the amount of characters this is taking up.</p>
+                    <button class="look-a-like-button">
+                        Read More
+                    </button>
+                </div>
+            </div>
+            <!-- End of Third Card -->
+
+        </div>
+    </div>
+</main>
+<!-- End of Main/Card Section -->
+
+<!-- Contact Form Section -->
+<div class="contact-section">
+        <h3>Contact</h3>
+        <div class="form">
+            <form action="form.php" method="POST">
+                <!-- Email Input 
+                <div class="email-text">Email: </div> <br>
+                <input class="email-input" type="text" name="Email" value=""><br> -->
+
+                <!-- Email from CodePen -->
+                
+                <div>    
+                    <label class="email-description" for="email">Email</label>
+                </div> <br>
+                    <input type="email" name="email" class="email-input" value="" required />
+                
+                <!-- Subject Input -->
+                <div>
+                    <label class="subject-description" for="text">Subject</label>
+                </div> <br>
+                <input type="text" name="subject" class="subject-input" value="" required />
+                
+                <!-- Message Input -->
+                <div>
+                    <label class="message-description" for="text" value="">Message</label>
+                </div> <br>
+                <textarea class="message-input" rows="10" cols="100" maxlength="500" required></textarea>
+                <br>
+                <!-- Submit Button -->
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </form>
+        </div>
+</div>
+
+<div class="js-section">
+    <p>Remove the duplicates in 2 Javascript objects and output the list of distinct names in an unordered list when <span id="puzzle" onclick="arrayUnique()" style="color: red; text-transform: underline;">this link is clicked</span>, if the operation has been completed already notify the user that this has already been done.</p>
+    <script>
+        
+
+        function arrayUnique(array) {
+                var a = array.concat();
+                for (var i = 0; i < a.length; ++i) {
+                    for (var j = i + 1; j < a.length; ++j) {
+                        if (a[i] === a[j])
+                            a.splice(j--, 1);
+                    }
+                }
+
+                return a;
+            }
+
+            var object1 = ["Matt Johnson", "Bart Paden", "Ryan Doss", "Jared Malcolm"];
+            var object2 = ["Matt Johnson", "Bart Paden", "Jordan Heigle", "Tyler Viles"];
+            // Merges both arrays and gets unique items
+            var array3 = arrayUnique(object1.concat(object2));
+            
+
+            document.getElementById("puzzle").onclick = function arrayUnique()
+            {
+                alert(array3);
+            }
+                alert("This has already been done");
+            
+
+    </script>
+</div>
+</body>
+
+</html>
