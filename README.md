@@ -23,7 +23,7 @@ Made Up Company<br>
 417-000-0000
 
 ## Code Test
-### View the [live project here.](https://kirstendarling.github.io/kirsten_bachert_05-2021/)
+### View the [live project here.](https://kirstendarling.github.io/My-MWI-Code-Test/)
 
 ### Screenshot
 
