@@ -23,3 +23,12 @@ Made Up Company<br>
 417-000-0000
 
 ## Code Test
+### View the [live project here.](https://kirstendarling.github.io/kirsten_bachert_05-2021/)
+
+### Screenshot
+
+<img width="1090" alt="Screen Shot 2022-10-31 at 12 52 44 PM" src="https://user-images.githubusercontent.com/54489152/199087124-0e0b9892-f458-4a39-bdda-8450ce97f332.png">
+
+<img width="514" alt="Screen Shot 2022-10-31 at 12 52 54 PM" src="https://user-images.githubusercontent.com/54489152/199087132-0321989d-10e9-4dc2-b903-6d0599516a73.png">
+
+<img width="1194" alt="Screen Shot 2022-10-31 at 12 53 02 PM" src="https://user-images.githubusercontent.com/54489152/199087166-9043c49a-64e2-4e6b-9d71-f745bb1580c7.png">
